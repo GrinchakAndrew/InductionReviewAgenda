@@ -1,4 +1,28 @@
         @import url('https://themes.googleusercontent.com/fonts/css?kit=wAPX1HepqA24RkYW1AuHYA');
+		
+		#stickingMenu{
+			top : 0px;
+			position : fixed;
+			background-color: grey;
+			width: 100%;
+		}
+		
+		#washer {
+			background-color : grey;
+			height: 50px;
+			margin : 0px auto;
+			margin-top: 10px;
+			
+		}
+		
+		#washer span {
+			font-size: 25px;
+			padding-left: 25px;
+		}
+		
+		#washer span {
+			color : #fff;
+		}
         .lst-kix_mw2qsms2kyvg-8>li:before {
             content: "\00274f  "
         }
