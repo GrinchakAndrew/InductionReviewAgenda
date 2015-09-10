@@ -110,6 +110,7 @@ var config = {
 	        }
 	    }
 	};
+	
 	config.domReady(function() {
 		document.body.style.opacity = '0.2';
 		config.animate(document.body, 110, 0.06);
