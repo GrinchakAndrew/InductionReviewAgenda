@@ -11,7 +11,7 @@ var config = {
 	            insideEl.id = "washer";
 	            newEl.style.opacity = '0.2';
 	            insideEl.style.width = document.querySelector('table').offsetWidth + 'px';
-				clone.innerHTML += " : " + document.querySelector('.c18.c20.c39').innerHTML + ' - ' + 
+				clone.innerHTML += " - " + document.querySelector('.c18.c20.c39').innerHTML + ' - ' + 
 				document.querySelector('.c18.c22').innerHTML;
 	            insideEl.appendChild(clone);
 	            newEl.appendChild(insideEl);
