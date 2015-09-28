@@ -35,7 +35,7 @@ var config = {
                     this.animate(el, 100, 0.3, true);
                 }
             },
-			scrollTopCurrentData : Number(),
+			scrollTopCurrentData : Number(),+
             scrollTop: function() {
                 return (document.body.scrollTop || document.documentElement.scrollTop);
             },
@@ -115,7 +115,6 @@ var config = {
             }
         });
     },
-	
     eventsBinder: function(El, event, handler) {
         if (El && El.addEventListener) {
             El.addEventListener(event, handler);
@@ -134,4 +133,3 @@ config.domReady(function() {
 	config.eventsBinder(document, 'touchend', config.instance.handler);
 	config.eventsBinder(window, 'touchend', config.instance.handler);
 });
-
