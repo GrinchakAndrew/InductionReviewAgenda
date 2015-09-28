@@ -35,7 +35,7 @@ var config = {
                     this.animate(el, 100, 0.3, true);
                 }
             },
-			scrollTopCurrentData : Number(),+
+			scrollTopCurrentData : Number(),
             scrollTop: function() {
                 return (document.body.scrollTop || document.documentElement.scrollTop);
             },
@@ -45,7 +45,6 @@ var config = {
             deanimate: function() {
                 els2ani.forEach(function(i) {
                     i.style.opacity = '0.2';
-					console.log(i);
                 });
             },
             aniNonActiveState: function() {
@@ -56,7 +55,6 @@ var config = {
                     direct = function() {
                         if (!el.style.opacity.match(/^1[.]/)) {
                             el.style.opacity = parseFloat(el.style.opacity) + step;
-							console.log(el);
                         } else {
                             clearInterval(_interval);
                         }
